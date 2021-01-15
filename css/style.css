@@ -1,0 +1,385 @@
+
+:root {
+    --deepgreen:  #478b41;
+    --darkgreen: #61B15A;
+    --lightreen: #ADCE74;
+    --yellow: #FFF76A;
+    --salmon: #FFCE89;
+    --padding: 20px;
+    --border-radius: 15px;
+    --gap: 4em;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+/* shared CSS rules */
+
+.flex-container {
+    display: flex;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-space-between {
+    justify-content: space-between;
+}
+
+.gap-top {
+    padding-top: var(--gap);
+}
+
+.gap-bottom {
+    padding-bottom: var(--gap);
+}
+
+hr {
+    background-color: #eee;
+}
+
+.page {
+    min-height: 100%;
+}
+
+.page .row {
+    min-height: 100%;
+}
+
+.page .row > div {
+    min-height: 100%;
+    /* border: 1px solid red; */
+}
+
+.page-heading {
+    display: inline-block;
+    background: var(--yellow);
+    padding: var(--padding);
+    border-radius: var(--border-radius);
+    margin-bottom: 60px;
+    color: var(--deepgreen);
+}
+
+.spacer-left-right {
+    padding: 0 var(--padding);
+}
+
+.bp-button {
+    width: 100%;
+}
+
+/* Nav CSS */
+.bg-light {
+    background-color: white !important;
+}
+
+a.nav-link {
+    font-weight: 500 !important;
+    font-size: 0.9em;
+    color: var(--darkgreen) !important;
+}
+
+/* Landing page */
+
+.landing-heading {
+    padding: var(--padding);
+    font-weight: 900;
+    color: var(--darkgreen);
+    font-size: 4em;
+}
+
+.landing-heading span {
+    font-weight: 300;
+    font-size: 0.9em;
+    position: relative;
+    top: -12px;
+    letter-spacing: -2px;
+}
+
+.container.landing-page {
+    height: 100%;
+}
+
+.landing-description {
+    background-color: var(--yellow);
+    padding: calc(var(--padding) * 2) var(--padding);
+    border-radius: var(--border-radius);
+}
+
+.landing-description, h5, p {
+    color: var(--darkgreen);
+    font-weight: 300;
+    font-size: 1.1em;
+}
+
+.landing-bg {
+    height: 1000px;
+    width: 1000px;
+    position: absolute;
+    background-color: var(--salmon);
+    border-radius: 50%;
+    bottom: -95%;
+    right: -95%;
+}
+
+img.essential-oils {
+    position: relative;
+    z-index: 2;
+}
+
+/* About Page */
+.about-page {
+    text-align: center;
+    color: var(--deepgreen);
+}
+
+.about-description p {
+    width: 100%;
+    padding: 0 100px;
+    line-height: 2em;
+    font-weight: 300;
+    font-size: 1.1em;
+    margin-bottom: 52px;
+}
+
+.about-page hr {
+    margin: 62px auto;
+    width: 60%;
+}
+
+/* Services page */
+.services-page {
+    text-align: center;
+}
+
+.service-item {
+    /* height: 400px; */
+    width: 100%;
+    background-color: #E5E5E5;
+    padding-left: calc(var(--padding) * 2);
+    padding-right: calc(var(--padding) * 2);
+    padding-bottom: var(--padding);
+    padding-top: calc(var(--padding) * 4);
+    border-radius: var(--border-radius);
+    border-bottom: 10px solid var(--yellow);
+    color: var(--darkgreen);
+}
+
+.service-item > * {
+    margin-bottom: 20px;
+}
+
+.service-item > *:last-child {
+    margin-top: 20px;
+}
+
+.service-container > div {
+    margin-bottom: 40px;
+}
+
+.service-item p {
+    font-weight: 500;
+}
+
+.price {
+    font-weight: 900;
+}
+
+.service-circle {
+    width: 220px;
+    height: 220px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+    margin: 0 auto;
+    position: relative;
+    top: 10%;
+}
+
+.service-circle img {
+    max-width: 100%;
+    height: 80%;
+}
+
+/* Modal */
+
+.modal-massage-title {
+    padding-left: 10px;
+    margin-bottom: 20px;
+    color: var(--darkgreen);
+}
+
+h4.modal-description {
+    margin-bottom: 20px;
+    padding-left: 10px;
+    font-size: 1.2em;
+}
+
+h4.modal-description + p {
+    padding-left: 10px;
+    padding-bottom: 25px;
+    color: black;
+    line-height: 20px;
+}
+
+/* Contact Us */
+.contacts-page {
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.contact-content {
+
+}
+
+.contact-content > div {
+    width: 60%;
+}
+
+.input-field {
+    width: 100%;
+    padding: calc(var(--padding) / 2);
+    border: 0;
+    border-radius: calc(var(--border-radius) / 2);
+}
+
+.contact-content form {
+    padding: var(--padding);
+    background: var(--darkgreen);
+    border-radius: var(--border-radius);
+}
+
+.contact-content form > div {
+    margin-bottom: 20px;
+}
+
+.action-form {
+    text-align: right;
+}
+
+.btn-send {
+    background-color: var(--yellow);
+    color: var(--darkgreen);
+}
+
+.contact-bg {
+    width: 98%;
+    height: 750px;
+    background: var(--salmon);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -400px;
+    border-radius: 48%;
+    z-index: -1;
+}
+
+div.contact-icons p {
+    color: var(--deepgreen);
+}
+
+.contact-icons {
+    margin-bottom: 20px;
+}
+
+.contact-icons i {
+    color: var(--darkgreen);
+    font-size: 1.8em;
+    display: inline-block;
+    margin-bottom: 18px;
+}
+
+.contact-desc {
+    margin-bottom: 40px;
+}
+
+.contact-icons > div {
+    flex: 1 1 100%;
+    height: 100px;
+    border-radius: var(--border-radius);
+    transition: background 0.4s ease;
+}
+
+.contact-icons > div:hover {
+    background: var(--yellow);
+}
+
+/* Footer */ 
+footer {
+    background: var(--darkgreen);
+    height: 120px;
+}
+
+footer .container, footer .container > div {
+    height: 100%;
+}
+
+footer p {
+    color: white;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+    .landing-heading {
+        margin-top: 60px;
+    }
+
+    .landing-heading span {
+        font-size: 0.7em;
+    }
+
+    img.essential-oils {
+        width: 80%;
+    }
+
+    .about-description p {
+        padding: 0;
+    }
+
+    .contact-content > div {
+        width: 100%;
+    }
+
+    .landing-bg {
+        bottom: -274px;
+        right: -198%;
+    }
+
+    
+}
+
+@media screen and (max-width: 414px) {
+    .landing-bg {
+        display: none;
+    }
+
+    .contact-icons {
+        display: block !important;
+    }
+}
+
+
+
+
+
+
+
+
+
