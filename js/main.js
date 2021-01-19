@@ -130,22 +130,6 @@ $(document).ready(function() {
             ]
         },
         {
-            id: 7,
-            image: 'images/green-olive.png',
-            title: 'Foot Therapy',
-            description: 'Tailored foot session of pure foot awareness integrating a mix of threpies to restore the flow, which helps you to clear any channels of blockage energy.',
-            pricelist: [
-                {
-                    minutes: '45 minutes',
-                    price: 'P 300'
-                },
-                {
-                    minutes: '60 minutes',
-                    price: 'P 350'
-                }
-            ]
-        },
-        {
             id: 8,
             image: 'images/green-olive.png',
             title: 'Acupuncture Therapy',
@@ -233,17 +217,16 @@ $(document).ready(function() {
         displayModal(serviceID);
     })
 
-    // $('a').click(function(event){
-    //     if(this.hash !== '') {
-    //         event.preventDefault();
-    //         let hash = this.hash;
-    //         console.log(hash);
-    //         $('html, body').animate({
-    //             scrollTop: $(hash).offset().top
-    //         }, 800, function() { 
-    //             window.location.hash = hash;
-    //         })
-    //     } 
-    // })
+    $('a').click(function(event){
+        if(this.hash !== '') {
+            event.preventDefault();
+            let hash = this.hash;
+            $('html, body').animate({
+                scrollTop: $(hash).offset().top
+            }, 800, function() { 
+                window.location.hash = hash;
+            })
+        } 
+    })
 
 })
