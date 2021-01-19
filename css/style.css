@@ -76,6 +76,7 @@ hr {
     border-radius: var(--border-radius);
     margin-bottom: 60px;
     color: var(--deepgreen);
+    font-weight: 900;
 }
 
 .spacer-left-right {
