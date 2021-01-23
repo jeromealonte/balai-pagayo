@@ -3,7 +3,7 @@ $(document).ready(function() {
     const arrayServices = [
         {
             id: 3,
-            image: 'images/oil-bottle-yellow.png',
+            image: 'images/hotstone.png',
             title: 'Himalayan Salt Stone Massage',
             description: 'A warm crystal salt stone melts away pain and muscle tension, lightly exfoliating and is highly relaxing, emits negative ioin and support a healthy respiratory system. <br><br>Formed over 250 million years at the Himalayan Mountain. It contains naturally occuring minerals and elements. Resonating at the earth\'s frequency<br>Himalayan salts have long been used for health and healing in Eastern traditions. The stone natural structure and natural resonant frequency help to realign energy pathways and restore balance to the CNS.',
             pricelist: [
@@ -23,7 +23,7 @@ $(document).ready(function() {
         },
         {
             id: 1,
-            image: 'images/oil-bottle-yellow.png',
+            image: 'images/hilotbentosa.png',
             title: 'Hilot Traditional Massage w/ Bentosa',
             description: 'A traditional Hilot treatment entails deep massage with the goal relaxing the mind and healing the body. Warm banana leaf strips laced with cocconut oil are often run over the body to clear energy blockage, as banana leaves contains both medical and herbal elements and natural ionizer.<br><br>Bentosa is a method of breaking up the blockage to restore the body\'s natural flow of energy that uses glass cups, suction device to disperse congestion, excellent for lungs and respiratory condition.',
             pricelist: [
@@ -58,8 +58,24 @@ $(document).ready(function() {
             ]
         },
         {
+            id: 5,
+            image: 'images/thai.png',
+            title: 'Thai Traditional Therapy',
+            description: 'Involves rhythmic forms of Yoga-like stretching, acupressure, energy meridian work. A holistic approach to healing, to stimulate the body\'s natural healing process.<br><br>Your therapist will use developes sensitivity and intuition to release stagnant energy, eliminate disease and resstore balance in the flow of energy through stimulating the SEN lines.',
+            pricelist: [
+                {
+                    minutes: '90 minutes',
+                    price: 'P 750'
+                },
+                {
+                    minutes: '120 minutes',
+                    price: 'P 950'
+                }
+            ]
+        },
+        {
             id: 4,
-            image: 'images/olives.png',
+            image: 'images/couples.png',
             title: 'Couples Massage',
             description: 'Enjoy a relaxing full body tissue massage lying side by side. THe tandem treatment invites couples to get more closer and re-connect with each other. Couples isn\'t only for romance. Mother-Daugher, Father-Son, and Best friends duos may also enjoy side by side services.',
             pricelist: [
@@ -78,40 +94,8 @@ $(document).ready(function() {
             ]
         },
         {
-            id: 5,
-            image: 'images/flower.png',
-            title: 'Thai Traditional Therapy',
-            description: 'Involves rhythmic forms of Yoga-like stretching, acupressure, energy meridian work. A holistic approach to healing, to stimulate the body\'s natural healing process.<br><br>Your therapist will use developes sensitivity and intuition to release stagnant energy, eliminate disease and resstore balance in the flow of energy through stimulating the SEN lines.',
-            pricelist: [
-                {
-                    minutes: '90 minutes',
-                    price: 'P 750'
-                },
-                {
-                    minutes: '120 minutes',
-                    price: 'P 950'
-                }
-            ]
-        },
-        {
-            id: 6,
-            image: 'images/green-olive.png',
-            title: 'Foot Therapy',
-            description: 'Tailored foot session of pure foot awareness integrating a mix of threpies to restore the flow, which helps you to clear any channels of blockage energy.',
-            pricelist: [
-                {
-                    minutes: '45 minutes',
-                    price: 'P 300'
-                },
-                {
-                    minutes: '60 minutes',
-                    price: 'P 350'
-                }
-            ]
-        },
-        {
             id: 0,
-            image: 'images/green-olive.png',
+            image: 'images/aromatherapy.png',
             title: 'Aromatherapy Massage',
             description: 'Combines the therapeutic benefits of using a blend of premium carrier oil and pure essential oil with some Swedish techniques for relaxation, improvement of circulation and these effects in physiological, psychological, and pharmalogical aspects of energy bodies.',
             pricelist: [
@@ -130,6 +114,22 @@ $(document).ready(function() {
             ]
         },
         {
+            id: 6,
+            image: 'images/foot.png',
+            title: 'Foot Therapy',
+            description: 'Tailored foot session of pure foot awareness integrating a mix of threpies to restore the flow, which helps you to clear any channels of blockage energy.',
+            pricelist: [
+                {
+                    minutes: '45 minutes',
+                    price: 'P 300'
+                },
+                {
+                    minutes: '60 minutes',
+                    price: 'P 350'
+                }
+            ]
+        },
+        {
             id: 8,
             image: 'images/green-olive.png',
             title: 'Acupuncture Therapy',
@@ -143,7 +143,7 @@ $(document).ready(function() {
         },
         {
             id: 9,
-            image: 'images/green-olive.png',
+            image: 'images/hotstone.png',
             title: 'Hotstone Therapy',
             description: 'Ancient tradition believed that stone have a quality w/ in them that represents the care of the earth that emits a sense of surrounding. VITALITY and ENERGY in the body. Our stone is bathe w/ warm water and amount them w/ our local and very own Filipino aromas. Utilizing volcanic basalt stone w/ specialized massage techniques will allow you a deeper sense of relaxation, melts muscles tension and equate the spine.',
             pricelist: [
@@ -155,7 +155,7 @@ $(document).ready(function() {
         },
         {
             id: `10`,
-            image: 'images/green-olive.png',
+            image: 'images/hotstone.png',
             title: 'Jade Therapy',
             description: 'Jade is an ancient protective stone known for having healing properties w/c relax the Nervous System, slows down the process of cell aging and strengthen the body natural defenses. It is associated w/ heart chakra and lower abdomen. Because of its composition of iron, calcium and magnesium it gives off far infrared heat (facilitate supply of oxygen) Jade stone is the only massage stone that can hold both heat and cold equally well.',
             pricelist: [
