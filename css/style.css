@@ -16,14 +16,17 @@
     box-sizing: border-box;
 }
 
-html {
-    scroll-behavior: smooth;
-}
-
 html, body {
     font-family: 'Roboto', sans-serif;
-    height: 100vh;
     overflow-x: hidden;
+}
+
+body {
+    height: 100%;
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 /* shared CSS rules */
@@ -66,7 +69,6 @@ hr {
 
 .page .row > div {
     min-height: 100%;
-    /* border: 1px solid red; */
 }
 
 .page-heading {
@@ -117,7 +119,7 @@ a.nav-link {
 }
 
 .container.landing-page {
-    height: 100%;
+    height: 100vh;
 }
 
 .landing-description {
@@ -324,6 +326,11 @@ div.contact-icons p {
     background: var(--yellow);
 }
 
+.phone-link {
+    display: block;
+    width: 100%;
+}
+
 /* Footer */ 
 footer {
     background: var(--darkgreen);
@@ -342,6 +349,7 @@ footer p {
 @media screen and (max-width: 768px) {
     .landing-heading {
         margin-top: 60px;
+        line-height: 60px;
     }
 
     .landing-heading span {
