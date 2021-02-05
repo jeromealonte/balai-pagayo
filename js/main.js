@@ -148,8 +148,16 @@ $(document).ready(function() {
             description: 'Ancient tradition believed that stone have a quality w/ in them that represents the care of the earth that emits a sense of surrounding. VITALITY and ENERGY in the body. Our stone is bathe w/ warm water and amount them w/ our local and very own Filipino aromas. Utilizing volcanic basalt stone w/ specialized massage techniques will allow you a deeper sense of relaxation, melts muscles tension and equate the spine.',
             pricelist: [
                 {
-                    minutes: 'TBA',
-                    price: 'TBA'
+                    minutes: '60 minutes',
+                    price: 'P 450'
+                },
+                {
+                    minutes: '75 minutes',
+                    price: 'P 550'
+                },
+                {
+                    minutes: '90 minutes',
+                    price: 'P 650'
                 }
             ]
         },
@@ -160,8 +168,16 @@ $(document).ready(function() {
             description: 'Jade is an ancient protective stone known for having healing properties w/c relax the Nervous System, slows down the process of cell aging and strengthen the body natural defenses. It is associated w/ heart chakra and lower abdomen. Because of its composition of iron, calcium and magnesium it gives off far infrared heat (facilitate supply of oxygen) Jade stone is the only massage stone that can hold both heat and cold equally well.',
             pricelist: [
                 {
-                    minutes: 'TBA',
-                    price: 'TBA'
+                    minutes: '60 minutes',
+                    price: 'P 450'
+                },
+                {
+                    minutes: '75 minutes',
+                    price: 'P 550'
+                },
+                {
+                    minutes: '90 minutes',
+                    price: 'P 650'
                 }
             ]
         }
